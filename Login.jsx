@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { supabase } from "../lib/supabase";
+import { supabase } from "./supabase";
 
 const ACCENT = "#7c6ff7";
 
