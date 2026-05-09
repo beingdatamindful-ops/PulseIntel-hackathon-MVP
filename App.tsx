@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
-import Login from "./components/Login";
-import Setup from "./components/Setup";
-import Scanning from "./components/Scanning";
-import Dashboard from "./components/Dashboard";
-import { supabase } from "./lib/supabase";
+import Login from "./Login";
+import Setup from "./Setup";
+import Scanning from "./Scanning";
+import Dashboard from "./Dashboard";
+import { supabase } from "./supabase";
 
 export default function App() {
   const [screen, setScreen] = useState("login"); // login | setup | scanning | dashboard
